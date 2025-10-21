@@ -62,10 +62,10 @@ function Product  ()  {
 
            <navit class="d-flex flex-wrap justify-content-between align-items-center  p-2  border-top ">
     <div class=" d-flex align-items-center ">
-    <button onClick={() => handleclick('electronics')} type="button" className="btn btn-lg">electronics</button>
-      <button onClick={() => handleclick('jewelery')} type="button" className="btn btn-lg">jewelery</button>
-      <button onClick={() => handleclick("men's clothing")} type="button" className="btn btn-lg">men's clothing</button>
-      <button onClick={() => handleclick("women's clothing")} type="button" className="btn btn-lg">women's clothing</button>
+    <button onClick={() => handleclick('electronics')} type="button" className="btn btn-lg">Electronics</button>
+      <button onClick={() => handleclick('jewelery')} type="button" className="btn btn-lg">Jewelery</button>
+      <button onClick={() => handleclick("men's clothing")} type="button" className="btn btn-lg">Men's Clothing</button>
+      <button onClick={() => handleclick("women's clothing")} type="button" className="btn btn-lg">Women's Clothing</button>
       <button onClick={() => handleAll("")} type="button" className="btn btn-lg">All</button>
     </div>
 
